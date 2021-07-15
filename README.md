@@ -11,3 +11,5 @@ To run this code you have to follow these steps.
 4.type command " python manage.py migrate"
 
 5.type command " python manage.py runserver"
+
+7.Open your browser and go to "http://127.0.0.1:8000/" 
