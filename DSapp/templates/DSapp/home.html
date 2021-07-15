@@ -1,0 +1,14 @@
+{% extends "DSapp/base.html" %}
+{% block content %}
+    {% for post in posts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+
+             <h1 class="text-muted">{{ post.message }}</h1>
+            </div>
+
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
